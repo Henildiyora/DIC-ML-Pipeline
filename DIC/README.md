@@ -44,16 +44,16 @@ cd DIC-ML-Pipeline
 
 ## 2️⃣ Create & Activate Virtual Environment
 python -m venv venv
-# Activate on Windows
+### Activate on Windows
 venv\Scripts\activate
-# Activate on Mac/Linux
+### Activate on Mac/Linux
 source venv/bin/activate
 
 ## 3️⃣ Install Dependencies
 pip install -r requirements.txt
 
 ## 4️⃣ Run EDA Notebook
-# Navigate to the notebooks/ folder and open Jupyter Notebook:
+## Navigate to the notebooks/ folder and open Jupyter Notebook:
 jupyter notebook
 
 ## 5️⃣ Train the Model
